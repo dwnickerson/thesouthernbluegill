@@ -12,12 +12,12 @@
 
 #theme                  : "minimal-mistakes-jekyll"
 remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dirt" #"default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "contrast" #"default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "The Southern Bluegill Associatiobn 2"
+title                    : "The Southern Bluegill Associatiobn"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : #"Your Name"
@@ -31,12 +31,12 @@ masthead_title           : # overrides the website title displayed in the masthe
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
 enable_copy_code_button  : # true, false (default)
-copyright                : # "copyright" name, defaults to site.title
+copyright                : # "copyright" , defaults to site.title
 copyright_url            : # "copyright" URL, defaults to site.url
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    short            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-short-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -46,12 +46,12 @@ comments:
     colorscheme          : # "light" (default), "dark"
   utterances:
     theme                : # "github-light" (default), "github-dark"
-    issue_term           : # "pathname" (default)
+    issue_term           : # "path" (default)
   giscus:
     repo_id              : # Shown during giscus setup at https://giscus.app
-    category_name        : # Full text name of the category
+    category_        : # Full text  of the category
     category_id          : # Shown during giscus setup at https://giscus.app
-    discussion_term      : # "pathname" (default), "url", "title", "og:title"
+    discussion_term      : # "path" (default), "url", "title", "og:title"
     reactions_enabled    : # '1' for enabled (default), '0' for disabled
     theme                : # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
     strict               : # 1 for enabled, 0 for disabled (default)
@@ -75,7 +75,7 @@ lunr:
   search_within_pages    : # true, false (default)
 algolia:
   application_id         : # YOUR_APPLICATION_ID
-  index_name             : # YOUR_INDEX_NAME
+  index_             : # YOUR_INDEX_
   search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
   powered_by             : # true (default), false
 google:
@@ -90,9 +90,9 @@ baidu_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  user               :
 facebook:
-  username               :
+  user               :
   app_id                 :
   publisher              :
 og_image                 : # Open Graph/Twitter default site image
@@ -100,7 +100,7 @@ og_image                 : # Open Graph/Twitter default site image
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+                     : # If the user or organization  differs from the site's 
   links: # An array of links to social media profiles
 
 # Analytics
@@ -113,10 +113,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : #"Your Name"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  bio              : #"I am an **amazing** person."
+  location         : "The Deep South"
   email            :
   links:
     - label: "Email"
@@ -137,6 +137,7 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+      
 # Header / Masthead settings
 header:
   overlay_image: /assets/images/IMG_7114_sm.jpg   # ← change to your exact filename
