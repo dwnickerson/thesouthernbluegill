@@ -139,13 +139,13 @@ author:
       # url: "https://instagram.com/"
       
 # Header / Masthead settings
-header:
-  overlay_image: /assets/images/IMG_7114_sm.jpg   # ← change to your exact filename
-  overlay_filter: 0.4    # darkens the image a bit so text stays readable (0 = no tint, 0.7 = very dark)
-  caption: "Uniting anglers through bluegill education, conservation, and Southern fishing culture"   # optional text under the logo
-  actions:
-    - label: "Join the Association"
-      url: "/join/"
+#header:
+ # overlay_image: /assets/images/IMG_7114_sm.jpg   # ← change to your exact filename
+ # overlay_filter: 0.4    # darkens the image a bit so text stays readable (0 = no tint, 0.7 = very dark)
+  #caption: "Uniting anglers through bluegill education, conservation, and Southern fishing culture"   # optional text under the logo
+  #actions:
+   # - label: "Join the Association"
+    #  url: "/join/"
 # Site Footer
 footer:
   links:
